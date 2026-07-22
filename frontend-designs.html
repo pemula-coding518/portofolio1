@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+
   <title>FRONTEND DESIGNS | SASUU</title>
   <meta name="description" content="Browse all frontend designs by Satria Akhmadana Putra (Sasuu).">
-  
+
   <meta property="og:title" content="FRONTEND DESIGNS | SASUU">
   <meta property="og:description" content="A collection of frontend designs by Sasuu.">
   <meta property="og:type" content="website">
-  
-  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 fill=%22%230A0A0A%22/><text y=%2250%22 x=%2250%22 fill=%22%23F5F5F0%22 font-family=%22sans-serif%22 font-size=%2240%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22>SA</text></svg>">
-  
+
+  <link rel="icon" type="image/svg+xml"
+    href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 fill=%22%230A0A0A%22/><text y=%2250%22 x=%2250%22 fill=%22%23F5F5F0%22 font-family=%22sans-serif%22 font-size=%2240%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22>SA</text></svg>">
+
   <link rel="stylesheet" href="style.css">
   <style>
     /* ==================== PAGE-SPECIFIC STYLES ==================== */
@@ -282,6 +284,7 @@
     }
   </style>
 </head>
+
 <body>
 
   <!-- ==================== PRELOADER ==================== -->
@@ -298,7 +301,7 @@
   <nav class="navbar">
     <div class="nav-inner">
       <a href="index.html" class="nav-logo" data-scramble>SASUU</a>
-      
+
       <div class="nav-menu">
         <a href="index.html#about" class="nav-link">ABOUT</a>
         <a href="index.html#projects" class="nav-link">PROJECTS</a>
@@ -334,7 +337,7 @@
     <section class="designs-section">
 
       <!-- EDIT: Update this count when you add/remove designs -->
-      <div class="designs-count reveal">SHOWING 2 PROJECTS</div>
+      <div class="designs-count reveal">SHOWING 3 PROJECTS</div>
 
       <div class="designs-grid">
 
@@ -351,7 +354,8 @@
           <div class="design-info">
             <div class="design-number">01 //</div>
             <h2 class="design-name" data-scramble>FERRARI SF90</h2>
-            <p class="design-desc">A SLEEK, HIGH-PERFORMANCE FRONTEND DESIGN INSPIRED BY THE FERRARI SF90 SUPERCAR. BUILT WITH MODERN WEB TECHNOLOGIES.</p>
+            <p class="design-desc">A SLEEK, HIGH-PERFORMANCE FRONTEND DESIGN INSPIRED BY THE FERRARI SF90 SUPERCAR.
+              BUILT WITH MODERN WEB TECHNOLOGIES.</p>
             <div class="design-tags">
               <span class="design-tag">HTML/CSS</span>
               <span class="design-tag">JAVASCRIPT</span>
@@ -391,14 +395,38 @@
             </div>
             <span class="design-cta">VIEW LIVE SITE</span>
           </div>
-        </a>
 
-        <!-- ==================== EDIT: ADD MORE DESIGNS HERE ==================== -->
-        <!-- Copy the <a class="design-card"> block above and paste here.
+          <div class="designs-grid">
+
+            <!-- ==================== EDIT: DESIGN 02 ==================== -->
+            <!-- To add a new design, copy the entire <a class="design-card"> block below
+             and paste it before the closing </div> of designs-grid.
+             Update the number, name, description, tags, iframe src, and href. -->
+            <a href="https://air-gorgon.vercel.app/" target="_blank" rel="noopener" class="design-card reveal">
+              <div class="design-preview">
+                <iframe src="https://air-gorgon.vercel.app/" loading="lazy" title="Air Gorgon Preview"></iframe>
+                <div class="design-preview-overlay"></div>
+                <div class="design-preview-label">LIVE PREVIEW</div>
+              </div>
+              <div class="design-info">
+                <div class="design-number">03 //</div>
+                <h2 class="design-name" data-scramble>AIR GORGON</h2>
+                <p class="design-desc">THE BEST SHOES FOR DUNKING</p>
+                <div class="design-tags">
+                  <span class="design-tag">HTML</span>
+                  <span class="design-tag">CSS</span>
+                  <span class="design-tag">JAVASCRIPT</span>
+                </div>
+                <span class="design-cta">VIEW LIVE SITE</span>
+              </div>
+            </a>
+
+            <!-- ==================== EDIT: ADD MORE DESIGNS HERE ==================== -->
+            <!-- Copy the <a class="design-card"> block above and paste here.
              Change: href, iframe src, number, name, description, tags.
              Don't forget to update the "SHOWING X PROJECTS" count above. -->
 
-      </div>
+          </div>
     </section>
   </main>
 
@@ -420,4 +448,5 @@
 
   <script src="script.js"></script>
 </body>
+
 </html>
